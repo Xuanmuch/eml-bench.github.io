@@ -1,0 +1,17 @@
+{
+  "id": "yourhandle_2026_04_26_log_example",
+  "source_wl": "Log[x]",
+  "eml": "EML[1,EML[EML[1,x],1]]",
+  "metrics": {
+    "char_len": 22,
+    "eml_node_count": 3,
+    "max_bracket_depth": 3
+  },
+  "compiler": "eml_compiler_v4.py",
+  "verified": "pending",
+  "lineage": "community",
+  "category": "unary",
+  "submitter": "your-github-username",
+  "notes_zh": "仅作结构示例。真实 PR 中请把 eml 与 metrics 换为你的工具链可复核输出，并说明与同 source_wl 的 seed/已有行的关系。",
+  "notes_en": "Structure demo only. In a real PR, set eml and metrics to match your toolchain, and state how the row relates to the existing seed or other rows for the same source_wl."
+}
