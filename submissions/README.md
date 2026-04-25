@@ -21,7 +21,7 @@ Same as one element of `entries` in [`docs/leaderboard.schema.json`](../docs/lea
 
 ## Verification
 
-Describe in PR body (and optional `notes_*`) how a maintainer can verify `eml` against `source_wl` (e.g. compiler command output, notebook, or other evidence you accept). See [`CONTRIBUTING.zh.md`](../CONTRIBUTING.zh.md) / [`CONTRIBUTING.en.md`](../CONTRIBUTING.en.md).
+Describe in PR body (and optional `notes_*`) how a maintainer can verify `eml` against `source_wl` (e.g. compiler output, notebook, or other evidence you accept). The public site’s **«Submission and Inclusion Workflow»** section (EN / 中文) is the end-user copy of this flow; field details also match `template.entry.json` and the schema.
 
 ---
 

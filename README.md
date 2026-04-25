@@ -28,7 +28,7 @@ Open the URL printed in the terminal (often `http://127.0.0.1:5173`). Use **EN /
 
 ## Submit a leaderboard row
 
-Do **not** edit `public/data/leaderboard.json` directly. Add JSON under `submissions/incoming/` and open a PR, following [`submissions/README.md`](./submissions/README.md) and [CONTRIBUTING.en.md](CONTRIBUTING.en.md) / [CONTRIBUTING.zh.md](CONTRIBUTING.zh.md).
+Do **not** edit `public/data/leaderboard.json` directly. Add JSON under `submissions/incoming/` and open a PR, following [`submissions/README.md`](./submissions/README.md). The in-app page **「Submission and Inclusion Workflow»** (EN / 中文) mirrors the same steps.
 
 Optional check (stdlib Python only):
 

@@ -28,7 +28,7 @@ npm run dev
 
 ## 向排行榜提交新条目
 
-**不要**直接改 `public/data/leaderboard.json`；在 `submissions/incoming/` 下按 [`submissions/README.md`](submissions/README.md) 添加 JSON 并发 PR。详见 [CONTRIBUTING.zh.md](CONTRIBUTING.zh.md) / [CONTRIBUTING.en.md](CONTRIBUTING.en.md)。
+**不要**直接改 `public/data/leaderboard.json`；在 `submissions/incoming/` 下按 [`submissions/README.md`](submissions/README.md) 添加 JSON 并发 PR。网页内 **「提交与纳入流程」**（中/英）与之一致，可对照使用。
 
 数据自检（仅 Python 标准库）：
 
