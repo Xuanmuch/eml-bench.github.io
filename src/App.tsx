@@ -1,4 +1,5 @@
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import submissionExample from './data/submission-example.json'
 import en from './i18n/en.json'
 import zh from './i18n/zh.json'
 
@@ -472,6 +473,54 @@ function MultilineMuted({ text, className = '' }: { text: string; className?: st
   )
 }
 
+const linkInProseClass = 'break-words text-[var(--link)] underline decoration-[var(--hairline-strong)] underline-offset-2 hover:opacity-90'
+
+function SubmissionPrExampleBlock({ lang }: { lang: Lang }) {
+  const code = useMemo(() => JSON.stringify(submissionExample, null, 2), [])
+  return (
+    <div className="mt-6 w-full min-w-0 space-y-2 border-t border-[var(--hairline)] pt-5">
+      <p className="m-0 text-sm font-semibold text-[var(--ink)]">{t(lang, 'section_submit_example_title')}</p>
+      <pre
+        className="m-0 max-h-[min(32rem,70vh)] overflow-auto rounded border border-[var(--hairline)] bg-[var(--panel-bg)] p-3 font-mono text-[0.65rem] leading-relaxed text-[var(--ink)]"
+        tabIndex={0}
+      >
+        {code}
+      </pre>
+      <p className="m-0 text-pretty text-xs leading-relaxed text-[var(--muted)]">{t(lang, 'section_submit_example_caption')}</p>
+    </div>
+  )
+}
+
+function ScienceSeedAttribution({ lang }: { lang: Lang }) {
+  return (
+    <ProsePanel>
+      <div className="space-y-4 leading-[1.85] text-[var(--muted)]">
+        <MultilineMuted text={t(lang, 'science_s6_body')} className="w-full max-w-none" />
+        <p className="m-0 text-pretty">
+          <span className="font-semibold text-[var(--ink)]">{t(lang, 'science_s6_credit_heading')}</span>
+          <br />
+          <span>{t(lang, 'science_s6_credit_name')}</span>
+          {' · '}
+          <a className={linkInProseClass} href="https://github.com/VA00" target="_blank" rel="noreferrer">
+            GitHub @VA00
+          </a>
+          {' · '}
+          <a className={linkInProseClass} href="mailto:andrzej.odrzywolek@uj.edu.pl">
+            andrzej.odrzywolek@uj.edu.pl
+          </a>
+        </p>
+        <p className="m-0 font-mono text-[0.72rem] leading-relaxed text-[var(--muted)]">
+          <a className={linkInProseClass} href="https://github.com/VA00/SymbolicRegressionPackage" target="_blank" rel="noreferrer">
+            github.com/VA00/SymbolicRegressionPackage
+          </a>
+          {' — '}
+          {t(lang, 'science_s6_repo_note')}
+        </p>
+      </div>
+    </ProsePanel>
+  )
+}
+
 /** Bordered prose block with subtle perspective tilt on hover. `hoverShadow={false}` for IX / 源表达式速览 copy (no drop shadow). */
 function ProsePanel({
   children,
@@ -766,6 +815,7 @@ export default function App() {
               <h2 className="text-lg font-bold tracking-tight text-[var(--ink)]">{t(lang, 'section_submit')}</h2>
               <ProsePanel className="mt-3">
                 <MultilineMuted text={t(lang, 'section_submit_body')} className="w-full max-w-none" />
+                <SubmissionPrExampleBlock lang={lang} />
               </ProsePanel>
             </BleedStrip>
           </div>
@@ -777,7 +827,7 @@ export default function App() {
               <p className="font-mono text-[0.7rem] uppercase tracking-[0.14em] text-[var(--accent-warm)]">{t(lang, 'science_page_kicker')}</p>
               <h1 className="mt-2 w-full max-w-none text-2xl font-bold tracking-tight text-[var(--ink)]">{t(lang, 'science_page_title')}</h1>
             </BleedStrip>
-            {[1, 2, 3, 4, 5].map((n, idx) => (
+            {[1, 2, 3, 4, 5, 6].map((n, idx) => (
               <BleedStrip
                 key={n}
                 bandClassName={idx % 2 === 1 ? 'bg-[var(--band-alt)]' : ''}
@@ -791,9 +841,13 @@ export default function App() {
                     </h2>
                   }
                 />
-                <ProsePanel>
-                  <MultilineMuted text={t(lang, `science_s${n}_body`)} className="w-full max-w-none" />
-                </ProsePanel>
+                {n === 6 ? (
+                  <ScienceSeedAttribution lang={lang} />
+                ) : (
+                  <ProsePanel>
+                    <MultilineMuted text={t(lang, `science_s${n}_body`)} className="w-full max-w-none" />
+                  </ProsePanel>
+                )}
               </BleedStrip>
             ))}
           </div>
@@ -807,7 +861,7 @@ export default function App() {
                 label={<h2 className="text-lg font-bold tracking-tight text-[var(--ink)]">{t(lang, 'section_board')}</h2>}
               />
               <ProsePanel className="mt-1" hoverShadow={false}>
-                <p className="m-0 text-pretty text-xs leading-relaxed text-[var(--muted)]">{t(lang, 'section_board_desc')}</p>
+                <MultilineMuted text={t(lang, 'section_board_desc')} className="w-full max-w-none text-xs" />
               </ProsePanel>
               {loadErr ? <p className="mt-3 font-mono text-sm text-[var(--accent)]">{loadErr}</p> : null}
             </BleedStrip>
