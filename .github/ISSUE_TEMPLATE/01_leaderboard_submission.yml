@@ -1,0 +1,24 @@
+name: Leaderboard submission (intent / question)
+description: Use this if you prefer an Issue before opening a PR with submissions/incoming/*.json
+title: "[submission] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Preferred path:** add `submissions/incoming/yourhandle_slug.json` and open a Pull Request (see `submissions/README.md`).
+        Use this issue for questions or to coordinate before you file the PR.
+  - type: textarea
+    id: source
+    attributes:
+      label: Proposed source_wl (Wolfram-style)
+      description: e.g. Sin[x] or Plus[x,y]
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / verification plan
+      description: How maintainers can check eml vs source (compiler command, notebook link, etc.)
+    validations:
+      required: false

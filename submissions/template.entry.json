@@ -1,0 +1,17 @@
+{
+  "id": "your_handle_short_slug",
+  "source_wl": "Sin[x]",
+  "eml": "EML[...]",
+  "metrics": {
+    "char_len": 0,
+    "eml_node_count": 0,
+    "max_bracket_depth": 0
+  },
+  "compiler": "eml_compiler_v4.py",
+  "verified": "pending",
+  "lineage": "community",
+  "category": "unary",
+  "submitter": "your-github-username",
+  "notes_zh": "简述验证方式或与已有行的关系（中文可空）。",
+  "notes_en": "How to verify, or relation to existing rows (English optional)."
+}

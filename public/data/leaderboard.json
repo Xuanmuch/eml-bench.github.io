@@ -1,0 +1,1140 @@
+{
+  "version": 4,
+  "updated": "2026-04-20T18:54Z",
+  "entries": [
+    {
+      "id": "const_1",
+      "source_wl": "1",
+      "eml": "1",
+      "metrics": {
+        "char_len": 1,
+        "eml_node_count": 0,
+        "max_bracket_depth": 0
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 1
+    },
+    {
+      "id": "identity_x",
+      "source_wl": "x",
+      "eml": "x",
+      "metrics": {
+        "char_len": 1,
+        "eml_node_count": 0,
+        "max_bracket_depth": 0
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 2
+    },
+    {
+      "id": "const_e",
+      "source_wl": "E",
+      "eml": "EML[1,1]",
+      "metrics": {
+        "char_len": 8,
+        "eml_node_count": 1,
+        "max_bracket_depth": 1
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 3
+    },
+    {
+      "id": "exp_x",
+      "source_wl": "Exp[x]",
+      "eml": "EML[x,1]",
+      "metrics": {
+        "char_len": 8,
+        "eml_node_count": 1,
+        "max_bracket_depth": 1
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 4
+    },
+    {
+      "id": "const_0",
+      "source_wl": "0",
+      "eml": "EML[1,EML[EML[1,1],1]]",
+      "metrics": {
+        "char_len": 22,
+        "eml_node_count": 3,
+        "max_bracket_depth": 3
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 5
+    },
+    {
+      "id": "log_x",
+      "source_wl": "Log[x]",
+      "eml": "EML[1,EML[EML[1,x],1]]",
+      "metrics": {
+        "char_len": 22,
+        "eml_node_count": 3,
+        "max_bracket_depth": 3
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 6
+    },
+    {
+      "id": "const_neg1",
+      "source_wl": "-1",
+      "eml": "EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]",
+      "metrics": {
+        "char_len": 57,
+        "eml_node_count": 8,
+        "max_bracket_depth": 7
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 7
+    },
+    {
+      "id": "const_2",
+      "source_wl": "2",
+      "eml": "EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]",
+      "metrics": {
+        "char_len": 92,
+        "eml_node_count": 13,
+        "max_bracket_depth": 9
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 8
+    },
+    {
+      "id": "plus_x_y",
+      "source_wl": "Plus[x,y]",
+      "eml": "EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[y,1]],1]]",
+      "metrics": {
+        "char_len": 92,
+        "eml_node_count": 13,
+        "max_bracket_depth": 9
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 9
+    },
+    {
+      "id": "times_x_y",
+      "source_wl": "Times[x,y]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 141,
+        "eml_node_count": 20,
+        "max_bracket_depth": 10
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 10
+    },
+    {
+      "id": "ext_bench_23",
+      "source_wl": "Exp[Times[x,y]]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 148,
+        "eml_node_count": 21,
+        "max_bracket_depth": 11
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 11
+    },
+    {
+      "id": "ext_bench_06",
+      "source_wl": "Log[Plus[1,x]]",
+      "eml": "EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]",
+      "metrics": {
+        "char_len": 113,
+        "eml_node_count": 16,
+        "max_bracket_depth": 12
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 12
+    },
+    {
+      "id": "ext_bench_24",
+      "source_wl": "Log[Plus[x,y]]",
+      "eml": "EML[1,EML[EML[1,EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[y,1]],1]]],1]]",
+      "metrics": {
+        "char_len": 113,
+        "eml_node_count": 16,
+        "max_bracket_depth": 12
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 13
+    },
+    {
+      "id": "power_x_y",
+      "source_wl": "Power[x,y]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 169,
+        "eml_node_count": 24,
+        "max_bracket_depth": 12
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 14
+    },
+    {
+      "id": "minus_x",
+      "source_wl": "Minus[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 197,
+        "eml_node_count": 28,
+        "max_bracket_depth": 15
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 15
+    },
+    {
+      "id": "inv_x",
+      "source_wl": "Inv[x]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 225,
+        "eml_node_count": 32,
+        "max_bracket_depth": 16
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 16
+    },
+    {
+      "id": "ext_bench_14",
+      "source_wl": "Times[2,x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 232,
+        "eml_node_count": 33,
+        "max_bracket_depth": 17
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 17
+    },
+    {
+      "id": "ext_bench_01",
+      "source_wl": "Power[x,2]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 260,
+        "eml_node_count": 37,
+        "max_bracket_depth": 18
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 18
+    },
+    {
+      "id": "sqr_x",
+      "source_wl": "Sqr[x]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 260,
+        "eml_node_count": 37,
+        "max_bracket_depth": 18
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 19
+    },
+    {
+      "id": "subtract_x_y",
+      "source_wl": "Subtract[x,y]",
+      "eml": "EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 288,
+        "eml_node_count": 41,
+        "max_bracket_depth": 19
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 20
+    },
+    {
+      "id": "ext_bench_13",
+      "source_wl": "Plus[Exp[x],Exp[Times[-1,x]]]",
+      "eml": "EML[EML[1,EML[EML[1,EML[x,1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]",
+      "metrics": {
+        "char_len": 302,
+        "eml_node_count": 43,
+        "max_bracket_depth": 20
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 21
+    },
+    {
+      "id": "ext_bench_15",
+      "source_wl": "Power[Plus[x,1],2]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 351,
+        "eml_node_count": 50,
+        "max_bracket_depth": 21
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 22
+    },
+    {
+      "id": "ext_bench_09",
+      "source_wl": "Plus[Power[x,2],Times[-1,x]]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 547,
+        "eml_node_count": 78,
+        "max_bracket_depth": 22
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 23
+    },
+    {
+      "id": "ext_bench_18",
+      "source_wl": "Plus[Power[x,2],Power[y,2]]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],1]],1]],1],1],1]],1]]",
+      "metrics": {
+        "char_len": 610,
+        "eml_node_count": 87,
+        "max_bracket_depth": 22
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 24
+    },
+    {
+      "id": "const_half",
+      "source_wl": "1/2",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 316,
+        "eml_node_count": 45,
+        "max_bracket_depth": 23
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 25
+    },
+    {
+      "id": "ext_bench_17",
+      "source_wl": "Times[x,Exp[Times[-1,x]]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 344,
+        "eml_node_count": 49,
+        "max_bracket_depth": 24
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 26
+    },
+    {
+      "id": "divide_x_y",
+      "source_wl": "Divide[x,y]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 365,
+        "eml_node_count": 52,
+        "max_bracket_depth": 24
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 27
+    },
+    {
+      "id": "log_x_y",
+      "source_wl": "Log[x,y]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 407,
+        "eml_node_count": 58,
+        "max_bracket_depth": 24
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 28
+    },
+    {
+      "id": "const_neghalf",
+      "source_wl": "-1/2",
+      "eml": "EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]",
+      "metrics": {
+        "char_len": 372,
+        "eml_node_count": 53,
+        "max_bracket_depth": 25
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 29
+    },
+    {
+      "id": "const_i",
+      "source_wl": "I",
+      "eml": "EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]",
+      "metrics": {
+        "char_len": 456,
+        "eml_node_count": 65,
+        "max_bracket_depth": 26
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 30
+    },
+    {
+      "id": "ext_bench_02",
+      "source_wl": "Subtract[Power[x,3],x]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]],1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 638,
+        "eml_node_count": 91,
+        "max_bracket_depth": 26
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 31
+    },
+    {
+      "id": "ext_bench_19",
+      "source_wl": "Power[Times[x,y],2]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 659,
+        "eml_node_count": 94,
+        "max_bracket_depth": 26
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 32
+    },
+    {
+      "id": "ext_bench_05",
+      "source_wl": "Exp[Times[-1,Power[x,2]]]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 463,
+        "eml_node_count": 66,
+        "max_bracket_depth": 27
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 33
+    },
+    {
+      "id": "ext_bench_20",
+      "source_wl": "Divide[x,Plus[1,y]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[y,1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 456,
+        "eml_node_count": 65,
+        "max_bracket_depth": 29
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 34
+    },
+    {
+      "id": "half_x",
+      "source_wl": "Half[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 456,
+        "eml_node_count": 65,
+        "max_bracket_depth": 31
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 35
+    },
+    {
+      "id": "sqrt_x",
+      "source_wl": "Sqrt[x]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 484,
+        "eml_node_count": 69,
+        "max_bracket_depth": 32
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 36
+    },
+    {
+      "id": "ext_bench_03",
+      "source_wl": "Divide[1,Plus[1,Power[x,2]]]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 575,
+        "eml_node_count": 82,
+        "max_bracket_depth": 34
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 37
+    },
+    {
+      "id": "const_pi",
+      "source_wl": "Pi",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 673,
+        "eml_node_count": 96,
+        "max_bracket_depth": 34
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 38
+    },
+    {
+      "id": "ext_bench_07",
+      "source_wl": "Sqrt[Plus[1,Power[x,2]]]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 834,
+        "eml_node_count": 119,
+        "max_bracket_depth": 34
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 39
+    },
+    {
+      "id": "ext_bench_16",
+      "source_wl": "Divide[1,Sqrt[Plus[1,Power[x,2]]]]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 890,
+        "eml_node_count": 127,
+        "max_bracket_depth": 34
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 40
+    },
+    {
+      "id": "hypot_x_y",
+      "source_wl": "Hypot[x,y]",
+      "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,y],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]",
+      "metrics": {
+        "char_len": 1093,
+        "eml_node_count": 156,
+        "max_bracket_depth": 34
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 41
+    },
+    {
+      "id": "avg_x_y",
+      "source_wl": "Avg[x,y]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 1002,
+        "eml_node_count": 143,
+        "max_bracket_depth": 35
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "binary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 42
+    },
+    {
+      "id": "cosh_x",
+      "source_wl": "Cosh[x]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[x,1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 1212,
+        "eml_node_count": 173,
+        "max_bracket_depth": 35
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 43
+    },
+    {
+      "id": "sinh_x",
+      "source_wl": "Sinh[x]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[x,1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 1268,
+        "eml_node_count": 181,
+        "max_bracket_depth": 37
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 44
+    },
+    {
+      "id": "tanh_x",
+      "source_wl": "Tanh[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[x,1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[x,1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 1163,
+        "eml_node_count": 166,
+        "max_bracket_depth": 40
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 45
+    },
+    {
+      "id": "arcsinh_x",
+      "source_wl": "ArcSinh[x]",
+      "eml": "EML[1,EML[EML[1,EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1],1]],1]]],1]]",
+      "metrics": {
+        "char_len": 946,
+        "eml_node_count": 135,
+        "max_bracket_depth": 41
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 46
+    },
+    {
+      "id": "ext_bench_10",
+      "source_wl": "Divide[x,Plus[1,Power[x,2]]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 715,
+        "eml_node_count": 102,
+        "max_bracket_depth": 42
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 47
+    },
+    {
+      "id": "ext_bench_08",
+      "source_wl": "Divide[Subtract[Power[x,2],1],Plus[Power[x,2],1]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 1121,
+        "eml_node_count": 160,
+        "max_bracket_depth": 42
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 48
+    },
+    {
+      "id": "const_goldenratio",
+      "source_wl": "GoldenRatio",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]],1]],1]],1]],1]]],1]]],1]],1]],1]],1],1],1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 1254,
+        "eml_node_count": 179,
+        "max_bracket_depth": 44
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "constant",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "常数分区：字面常数与常用常数原子；与一元/二元原子分区并列，非复合扩展题。",
+      "notes_en": "Constants partition: literal and standard constant atoms; alongside unary/binary primitive rows, not composite extended rows.",
+      "rank_hint": 49
+    },
+    {
+      "id": "arccosh_x",
+      "source_wl": "ArcCosh[x]",
+      "eml": "EML[1,EML[EML[1,EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]]",
+      "metrics": {
+        "char_len": 1457,
+        "eml_node_count": 208,
+        "max_bracket_depth": 47
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 50
+    },
+    {
+      "id": "arctanh_x",
+      "source_wl": "ArcTanh[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]],1]],1]],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 1219,
+        "eml_node_count": 174,
+        "max_bracket_depth": 50
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 51
+    },
+    {
+      "id": "arccos_x",
+      "source_wl": "ArcCos[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[x,1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 2052,
+        "eml_node_count": 293,
+        "max_bracket_depth": 55
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 52
+    },
+    {
+      "id": "cos_x",
+      "source_wl": "Cos[x]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 2402,
+        "eml_node_count": 343,
+        "max_bracket_depth": 55
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 53
+    },
+    {
+      "id": "arcsin_x",
+      "source_wl": "ArcSin[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 2528,
+        "eml_node_count": 361,
+        "max_bracket_depth": 57
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 54
+    },
+    {
+      "id": "sin_x",
+      "source_wl": "Sin[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 2794,
+        "eml_node_count": 399,
+        "max_bracket_depth": 63
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 55
+    },
+    {
+      "id": "ext_bench_11",
+      "source_wl": "Sin[Exp[x]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[x,1]],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[x,1]],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 2808,
+        "eml_node_count": 401,
+        "max_bracket_depth": 63
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 56
+    },
+    {
+      "id": "ext_bench_21",
+      "source_wl": "Plus[Sin[x],Cos[y]]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 5286,
+        "eml_node_count": 755,
+        "max_bracket_depth": 67
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 57
+    },
+    {
+      "id": "arctan_x",
+      "source_wl": "ArcTan[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,x],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1],1]],1]]],1]],1]],1]],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 3172,
+        "eml_node_count": 453,
+        "max_bracket_depth": 69
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 58
+    },
+    {
+      "id": "ext_bench_12",
+      "source_wl": "Log[Plus[1,Sin[x]]]",
+      "eml": "EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1],1]],1]]],1]]",
+      "metrics": {
+        "char_len": 2906,
+        "eml_node_count": 415,
+        "max_bracket_depth": 70
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 59
+    },
+    {
+      "id": "logisticsigmoid_x",
+      "source_wl": "LogisticSigmoid[x]",
+      "eml": "EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1],1]],1]]",
+      "metrics": {
+        "char_len": 3564,
+        "eml_node_count": 509,
+        "max_bracket_depth": 70
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 60
+    },
+    {
+      "id": "ext_bench_04",
+      "source_wl": "Times[Sin[x],Cos[x]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 5335,
+        "eml_node_count": 762,
+        "max_bracket_depth": 71
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 61
+    },
+    {
+      "id": "ext_bench_22",
+      "source_wl": "Times[Sin[x],Cos[y]]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,y],1]],1]],1]],1],1]],1]],1]],1]],1],1]],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 5335,
+        "eml_node_count": 762,
+        "max_bracket_depth": 71
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "extended",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "复合表达式基准：由多项式、有理式、嵌套等 Wolfram 源式组成，用于结构覆盖；不属于「单条一元/二元原子」分区。",
+      "notes_en": "Composite benchmark: curated Wolfram sources for structural coverage; not the single-line unary/binary primitive partition.",
+      "rank_hint": 62
+    },
+    {
+      "id": "tan_x",
+      "source_wl": "Tan[x]",
+      "eml": "EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]]],1]],1]],1]],1],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1]],1]],1]],1]],1]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1],1],1]]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,x],1]],1]],1]],1],1],1]],1]]],1]],1]],1]],1]",
+      "metrics": {
+        "char_len": 4138,
+        "eml_node_count": 591,
+        "max_bracket_depth": 75
+      },
+      "compiler": "eml_compiler_v4.py",
+      "verified": "seed",
+      "lineage": "baseline",
+      "category": "unary",
+      "submitter": "seed@eml-hub.local",
+      "notes_zh": "一元/二元原子分区：与公开 EML 基准里的一元头、二元算符测试集一致的一等原子，非复合扩展题。",
+      "notes_en": "Unary/binary primitive partition: rows aligned with the public EML unary/binary test set (first-class atoms, not composite extended rows).",
+      "rank_hint": 63
+    }
+  ]
+}

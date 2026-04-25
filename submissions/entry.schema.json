@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/eml-hub/submission-entry.schema.json",
+  "title": "Single leaderboard entry (submission file body)",
+  "description": "One JSON file under submissions/incoming/ must contain exactly one object matching this shape — same as one element of public/data/leaderboard.json entries.",
+  "type": "object",
+  "required": ["id", "source_wl", "eml", "metrics", "verified"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "source_wl": { "type": "string", "minLength": 1 },
+    "eml": { "type": "string", "minLength": 1 },
+    "metrics": {
+      "type": "object",
+      "required": ["char_len", "eml_node_count", "max_bracket_depth"],
+      "properties": {
+        "char_len": { "type": "integer", "minimum": 1 },
+        "eml_node_count": { "type": "integer", "minimum": 1 },
+        "max_bracket_depth": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "verified": { "type": "string", "enum": ["seed", "pr", "pending"] },
+    "lineage": { "type": "string", "enum": ["baseline", "community"] },
+    "category": { "type": "string" },
+    "submitter": { "type": "string" },
+    "pr_url": { "type": "string" },
+    "compiler": { "type": "string" },
+    "notes_zh": { "type": "string" },
+    "notes_en": { "type": "string" },
+    "rank_hint": { "type": "integer" }
+  }
+}

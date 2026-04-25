@@ -1,0 +1,19 @@
+name: Validate submission JSON
+
+on:
+  pull_request:
+    paths:
+      - "submissions/incoming/**"
+      - "scripts/validate_submissions.py"
+      - "submissions/entry.schema.json"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate submissions/incoming/*.json
+        run: python3 scripts/validate_submissions.py
