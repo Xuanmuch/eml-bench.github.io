@@ -12,6 +12,6 @@
   "lineage": "community",
   "category": "unary",
   "submitter": "xuanmuch",
-  "notes_zh": "简述验证方式或与已有行的关系（中文可空）。",
+  "notes_zh": "求绝对值",
   "notes_en": "How to verify, or relation to existing rows (English optional)."
 }
