@@ -1,17 +1,17 @@
 {
-  "id": "your_handle_short_slug",
-  "source_wl": "Sin[x]",
-  "eml": "EML[...]",
+  "id": "xuanmuch",
+  "source_wl": "Abs[x]",
+  "eml": "EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]],1]],1]],1]],1]],1]],1]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,EML[EML[1,EML[EML[1,1],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[1,1]],1]]],1]]],1]],EML[EML[EML[1,EML[EML[1,EML[1,EML[EML[1,1],1]]],1]],EML[EML[1,EML[EML[1,EML[1,EML[EML[1,x],1]]],1]],1]],1]],1],1]],1]]],1]],1]],1]],1],1]",
   "metrics": {
-    "char_len": 0,
-    "eml_node_count": 0,
-    "max_bracket_depth": 0
+    "char_len": 743,
+    "eml_node_count": 106,
+    "max_bracket_depth": 50
   },
   "compiler": "eml_compiler_v4.py",
   "verified": "pending",
   "lineage": "community",
   "category": "unary",
-  "submitter": "your-github-username",
+  "submitter": "xuanmuch",
   "notes_zh": "简述验证方式或与已有行的关系（中文可空）。",
   "notes_en": "How to verify, or relation to existing rows (English optional)."
 }
